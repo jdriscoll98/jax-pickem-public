@@ -1,0 +1,16 @@
+{
+  "short_name": "Jax Pickem",
+  "name": "Jax Pickem",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "/favicon.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "version": "1.3.0"
+}

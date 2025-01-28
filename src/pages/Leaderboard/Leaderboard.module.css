@@ -1,0 +1,15 @@
+.header {
+    font-size: 1.2rem;
+    background-color: var(--ion-color-light);
+    color: var(--ion-color-dark);
+    padding: 10px;  
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid var(--ion-color-dark);
+}
+
+.row {
+    padding: 12px;
+    border-bottom: 1px solid var(--ion-color-dark);
+}

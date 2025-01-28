@@ -1,0 +1,4 @@
+.rules-list > ion-item {
+    --inner-padding-top: 12px;
+    --inner-padding-bottom: 12px;
+}

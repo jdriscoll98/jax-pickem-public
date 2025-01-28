@@ -1,0 +1,20 @@
+/* style the grid to be 100% width with a table style look so that the left column is the "title" and the right column is the value */
+
+.grid-table ion-col {
+  border-right: 1px solid var(--ion-color-medium);
+}
+
+.grid-table ion-col:last-child {
+  border-right: none;
+}
+
+.grid-table ion-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.grid-table ion-row:last-child {
+  border-bottom: 1px solid var(--ion-color-medium);
+}

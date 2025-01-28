@@ -1,0 +1,15 @@
+Picked up _JAVA_OPTIONS: -Xverify:none
+OpenJDK 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+09:53:33.749 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+09:53:33.829 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+09:53:34.129 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - jax-pickem-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 81ms, init: 0ms
+09:58:17.684 [FirebaseWorkerPool-1-1] WARN com.firebase.core.persistence.backend.dummy.EmulatorMetadataPersistence - Multiple projectIds are not recommended in single project mode. Requested 
+namespace jax-pickem, but the emulator is configured for jax-pickem-default-rtdb. To 
+opt-out of single project mode add/set the singleProjectMode: false property in 
+the firebase.json emulators config. 
+09:58:17.690 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.NamespaceActor - jax-pickem successfully activated FBKV (SurveyIdle(0)) wait: 2ms, init: 0ms
+09:58:17.748 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+09:58:17.753 [NamespaceSystem-akka.actor.default-dispatcher-10] INFO com.firebase.core.namespace.Terminator$Terminator - 2 actors left to terminate: jax-pickem, jax-pickem-default-rtdb
+09:58:17.757 [NamespaceSystem-akka.actor.default-dispatcher-6] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for jax-pickem
+09:58:17.757 [NamespaceSystem-akka.actor.default-dispatcher-17] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for jax-pickem-default-rtdb
+09:58:17.760 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.

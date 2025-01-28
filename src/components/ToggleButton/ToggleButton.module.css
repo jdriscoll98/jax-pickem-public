@@ -1,0 +1,21 @@
+.default {
+  --background: var(--ion-color-light);
+  --color: var(--ion-color-dark);
+  --border-radius: 4px;
+  --border-color: var(--ion-color-light);
+  --border-width: 2px;
+  --border-style: solid;
+  --padding-end: 20px;
+  --padding-start: 20px;
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  --background-activated: var(--ion-color-dark);
+  --color-activated: var(--ion-color-light);
+  transition: background 0.3s, color 0.3s;
+}
+
+
+.selected {
+  --background: var(--ion-color-dark);
+  --color: var(--ion-color-light);
+}

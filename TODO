@@ -1,0 +1,6 @@
+* Make picks lock odds when you select them.
+* If odds improve, update to the better odds. 
+* If odds don't improve, keep the current odds.
+* Database needs to be structured to save the pick and what odds were selected.
+* Results checker needs to use the pick odds real odds.
+* User scores will have to be saved in the database, not calculated on the fly.
