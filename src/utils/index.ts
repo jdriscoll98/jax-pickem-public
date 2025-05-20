@@ -204,7 +204,7 @@ export function convertUTCToEST(utcDateString: string) {
     utcDate.toLocaleString("en-US", { timeZone: "America/New_York" })
   );
 
-  // Format the date back to the same format as input (ISO 8601)
+  // Return the converted EST Date object
   return estDate;
 }
 
