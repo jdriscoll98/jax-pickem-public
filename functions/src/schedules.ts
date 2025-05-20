@@ -53,7 +53,7 @@ export const updateLocksAndResultsSchedule = onSchedule(
     log(`Updating results for week ${week.docs[0].id}`);
     const res2 = await updateResultsHelper(week.docs[0].id);
     if (res2.error) {
-      error(res.error);
+      error(res2.error);
     } else {
       log("Successfully updates results");
     }
