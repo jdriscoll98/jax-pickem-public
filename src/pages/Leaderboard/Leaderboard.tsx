@@ -52,7 +52,7 @@ const Leaderboard: React.FC = () => {
     if (!scores) return `-`;
     const rank = scores?.findIndex((s) => s[1] === score);
     if (rank === -1) return `-`;
-    // if there are more than one score with the same socre, add a "T" to the beginning
+    // if there are more than one score with the same score, add a "T" to the beginning
     if (scores?.filter((s) => s[1] === score).length > 1) {
       return `T${rank + 1}`;
     }
